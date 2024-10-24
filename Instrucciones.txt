@@ -1,0 +1,14 @@
+1. Instalar anaconda y abrir Anaconda Prompt
+2. Crear un ambiente de trabajo:
+	conda create -n proyecto
+3. Activar el ambiente de trabajo:
+	conda activate proyecto
+4. Instalar opencv, matplotlib y Tkinter
+	conda install conda-forge::opencv
+	conda install conda-forge::matplotlib
+	conda install anaconda::tk
+5. Ejecutar el programa IPBBIS:
+	python IPBBIS.py
+6. Salir del ambiente de trabajo
+	conda deactivate
+7. Cerrar Shell Anaconda Prompt
